@@ -119,4 +119,4 @@ const event = zru.notification.constructEvent(
 
 console.log('Event Status:', event.status);
 console.log('Event Type:', event.type);
-console.log('Event Signature:', event.check_signature());
+console.log('Event Signature:', event.checkSignature());

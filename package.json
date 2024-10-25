@@ -1,6 +1,6 @@
 {
   "name": "zru",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ZRU NodeJS Bindings",
   "keywords": [
     "zru",
@@ -41,5 +41,11 @@
     "lint": "eslint .",
     "report": "nyc -r text -r lcov report",
     "coveralls": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "bugs": {
+    "url": "https://github.com/zrupay/zru-nodejs/issues"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
